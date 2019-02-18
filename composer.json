@@ -1,7 +1,12 @@
 {
     "name": "kysion/ant-design-pro-admin",
     "description": "And Design Pro, Auth, JWT for Laravel",
+    "type": "library",
+    "keywords": ["laravel", "admin", "ant design"],
+    "homepage": "https://github.com/kysion/Ant-Design-Pro-Admin",
     "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": "~5.7",
         "spatie/laravel-permission": "^2.32",
         "tymon/jwt-auth": "1.*@rc"
     },
@@ -14,8 +19,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "App\\": "app/",
-            "Kysion\\Ant-Design-Pro-Admin": "src/Kysion/AntDesignProAdmin/"
+            "Kysion\\Ant-Design-Pro-Admin\\": "src/Kysion/AntDesignProAdmin/"
         }
     },
     "extra": {
